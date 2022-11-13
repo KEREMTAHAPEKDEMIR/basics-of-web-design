@@ -1,0 +1,164 @@
+<html>
+    <head>
+        <meta charset="utf-8"/>
+<title>SAYFA</title>
+    </head>
+    <body>
+        <p align="center">ÖZEL HİZMETLİ İŞ BAŞVURU FORMU</p>
+        <br>
+        <form action="diger.html" method="post">
+            <hr>
+            <p align="center">İLETİŞİM BİLGİLERİNİZ</p>
+            <br>
+            İSİM SOYİSİM:
+            <br>
+            <input type="text" name="İSİM SOYİSİM">
+            <br>
+            <br>
+            TELEFON NUMARANIZ:
+            <br>
+            <input type="text" name="TELEFON NUMARANIZ">
+            <br>
+            <br>
+            E-POSTA ADRESİ:
+            <br>
+            <input type="text" name="E-POSTA ADRESİNİZ">
+            <br>
+            <br>
+            EV ADRESİNİZ:
+            <br>
+            <textarea name="adres" cols="50" rows="5"></textarea>
+            <br>
+            <hr>
+            <p align="center">KİŞİSEL BİLGİLER</p>
+            <br>
+            <br>
+            CİNSİYET:
+            <br>
+            <input type="radio" id="007" name="cinsiyet" value="e">
+            <label for="007">Erkek</label>
+            <br>
+            <input type="radio" id="008" name="cinsiyet" value="k">
+            <label for="008">Kadın</label>
+            <br>
+            <input type="radio" id="009" name="cinsiyet" value="b">
+            <label for="009">Belirtmek İstemiyorum</label>
+            <br>
+            <br>
+            DOĞUM YERİ:
+            <br>
+            <input type="text" name="DOGUM YERİ">
+            <br>
+            <br>
+            DOĞUM TARİHİ(GÜN/AY/YIL):
+            <br>
+            <input type="text" name="DOGUM TARİHİ">
+            <br>
+            <br>
+            SABIKA KAYDI:
+            <br>
+            <textarea name="SABİKA KAYDİ" cols="50" rows="5"></textarea>
+            <br>
+            <br>
+            MEDENİ DURUMU:
+            <br>
+            <input type="radio" id="014" name="medeni durum" value="ev">
+            <label for="014">EVLİ</label>
+            <br>
+            <input type="radio" id="015" name="medeni durum" value="be">
+            <label for="015">BEKAR</label>
+            <br>
+            <hr>
+            <p align="center">İŞ TECRÜBELERİ</p>
+            <br>
+            GÖREV/ŞİRKET ADI/ÇALIŞMA YERLERİ:
+            <br>
+            <textarea name="GOREV/SİRKET ADİ/CALİSMA YERLERİ" cols="50" rows="5"></textarea>
+            <br>
+            <br>
+            GÖREV/ŞİRKET ADI/ÇALIŞMA YERLERİ:
+            <br>
+            <textarea name="GOREV/SİRKET ADİ/CALİSMA YERLERİ" cols="50" rows="5"></textarea>
+            <br>
+            <br>
+            GÖREV/ŞİRKET ADI/ÇALIŞMA YERLERİ:
+            <br>
+            <textarea name="GOREV/SİRKET ADİ/CALİSMA YERLERİ" cols="50" rows="5"></textarea>
+            <br>
+            <hr>
+            <p align="center">İSTENİLEN NİTELİKLER:</p>
+            <input type="checkbox" id="özellikler1" name="özellikler" value="yemek yapmak"> 
+            <label for="özellikler1">YEMEK YAPMAK</label>
+            <br>
+            <br>
+            <input type="checkbox" id="özellikler2" name="özellikler" value="TEMİZLİK YAPMAK"> 
+            <label for="özellikler2">TEMİZLİK YAPMAK</label>
+            <br>
+            <br>
+            <input type="checkbox" id="özellikler3" name="hobiler" value="çocuk bakıcılığı"> 
+            <label for="özellikler3">ÇOCUK BAKICILIĞI</label>
+            <br>
+            <br>
+            <input type="checkbox" id="özellikler4" name="özellikler" value="ütü yapmak"> 
+            <label for="özellikler4">ÜTÜ YAPMAK</label>
+            <br>
+            <br>
+            <input type="checkbox" id="özellikler5" name="özellikler" value="ev temizligi"> 
+            <label for="özellikler5">EV TEMİZLİĞİ</label>
+            <br>
+            <br>
+            <input type="checkbox" id="özellikler6" name="özellikler" value="bilgisayar kullanımı"> 
+            <label for="özellikler6">BİLGİSAYAR KULLANIMI</label>
+            <br>
+            <br>
+            <hr>
+            <p align="center">ÖĞRENİM DURUMU</p>
+            <br>
+            OKUDUĞUNUZ OKUL/BÖLÜM/MEZUNİYET YILINIZ:
+            <br>
+            <textarea name="okudugunuz okul/bolum/mezuniyet yili" cols="50" rows="5"></textarea>
+            <hr>
+            <p align="center">BİLGİSAYAR BECERİLERİ</p>
+            <br>
+            BİLGİSAYRA TECRÜBELERİNİZDEN BAHSEDİNİZ:
+            <br>
+            <textarea name="bilgisayar tecrubeleriniz" cols="50" rows="5"></textarea>
+            <hr>
+            <p align="center">SERTİFİKALARINIZ</p>
+            <br>
+            SERTİFİKALARINIZ:
+            <input type="checkbox" id="sertifka1" name="sertifkalar" value="yemek yapmak"> 
+            <label for="sertifka1">AHÇILIK</label>
+            <br>
+            <br>
+            <input type="checkbox" id="sertifka2" name="sertifkalar" value="el becerileri"> 
+            <label for="sertifka2">EL BECERİLERİ</label>
+            <br>
+            <br>
+            <input type="checkbox" id="sertifka3" name="sertifkalar" value="çocuk bakıcılığı"> 
+            <label for="sertifka3">ÇOCUK BAKICILIĞI</label>
+            <br>
+            <br>
+            <input type="checkbox" id="sertifka4" name="sertifkalar" value="ev temizligi"> 
+            <label for="sertifka4">TEMİZLİK</label>
+            <br>
+            <br>
+            <input type="checkbox" id="sertifika6" name="sertifkalar" value="bilgisayar kullanımı"> 
+            <label for="sertifika4">BİLGİSAYAR </label>
+            <br>
+            <br>
+            <hr>
+            <p align="center">REFERANSLAR</p>
+            <br>
+            REFERANSLAR:
+            <br>
+            <textarea name="REFERANSLAR" cols="50" rows="5"></textarea>
+            <hr>
+        </table>
+            <br>
+            <br>
+            <center><input type="submit" name="gönder"></center>
+            <br>
+            <br>
+    </body>
+</html>
